@@ -1,4 +1,4 @@
-# sysllbus tracker
+# syllabus tracker
 
 # Overview of the project
 This python application serves as a SYLLABUS TRACKER. It allows the users :- 
