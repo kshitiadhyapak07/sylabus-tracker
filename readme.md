@@ -27,21 +27,16 @@ The goal is to provide a reliable, modular and easy-touse digital solution that 
 
 2. Syllabus Manipulation (CRUD Operations)
 
-•	FR2.1: Add Entry (Create): The system must allow the user to input details (Module, Topic, Due Date, Status, Notes) and add a new entry to the syllabus list.
-o	Sub-Requirement: The system must validate that the Due Date is entered in the YYYY-MM-DD format.
-•	FR2.2: View Syllabus (Read): The system must display all current syllabus entries to the user in a formatted, readable table.
-•	FR2.3: Update Entry (Update): The system must allow the user to select an entry by its displayed index and update the value of any specific field (Module, Topic, Due Date, Status, Notes).
-•	FR2.4: Delete Entry (Delete): The system must allow the user to select an entry by its displayed index and remove it from the syllabus list after confirming the action
-3. Display and Sorting
-•	FR3.1: Sort by Date: The displayed syllabus must be sorted in ascending order based on the Due Date.
-•	FR3.2: Indicate Overdue Items: The system must check the current date against the Due Date and, if the entry's Status is not 'Completed' and the Due Date is in the past, it must visually mark the item as OVERDUE (using red text/ANSI codes).
+•	FR2.1: Add Entry (Create): The system must allow the user to input details (Module, Topic, Due Date, Status, Notes) and add a new entry to the syllabus list.<br>
+o	Sub-Requirement: The system must validate that the Due Date is entered in the YYYY-MM-DD format.<br>
+•	FR3.2: Indicate Overdue Items: The system must check the current date against the Due Date and, if the entry's Status is not 'Completed' and the Due Date is in the past, it must visually mark the item as OVERDUE (using red text/ANSI codes).<br>
 
-4.. User Interface and Control
+4.. User Interface and Control<br>
 
-•	FR4.1: Display Menu: The system must present a clear, numbered menu of available actions (View, Add, Update, Delete, Exit/Save) to the user in a loop until the user chooses to exit
+•	FR4.1: Display Menu: The system must present a clear, numbered menu of available actions (View, Add, Update, Delete, Exit/Save) to the user in a loop until the user chooses to exit<br>
 
 •	FR4.2: Handle Invalid Input: The system must detect and handle invalid menu choices or non
-numeric index inputs gracefully by notifying the user and returning to the menu
+numeric index inputs gracefully by notifying the user and returning to the menu<br>
 
 
 # Technologies/tools used 
